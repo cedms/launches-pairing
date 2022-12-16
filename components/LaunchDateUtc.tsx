@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import styles from '../../styles/Card.module.css';
+import styles from '../styles/Card.module.css';
 
 const DATE_FORMAT = 'DD/MM/YYYY';
 

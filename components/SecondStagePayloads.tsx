@@ -1,4 +1,4 @@
-import styles from '../../styles/Card.module.css';
+import styles from '../styles/Card.module.css';
 
 const LABEL = 'Second stage payloads:';
 

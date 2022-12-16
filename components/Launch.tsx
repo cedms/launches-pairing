@@ -3,14 +3,14 @@ import FirstStageCores from './FirstStageCores';
 import SecondStagePayloads from './SecondStagePayloads';
 import LaunchMessage from './LaunchMessage';
 import LaunchDateUtc from './LaunchDateUtc';
-import styles from '../../styles/Home.module.css';
+import styles from '../styles/Home.module.css';
 
 export default function Launch({ launch }) {
   return (
-    <a href='/' className={styles.card}>
+    <a href='/' className={styles.card} data-test-id={`launch-${launch.flightNumber}`}>
       <div className={styles.header}>
         <Logo src={launch.links.missionPatchSmall} alt={launch.missionName}></Logo>
-        <h2>{launch.missionName}</h2>
+        <h2>1{launch.missionName}</h2>
       </div>
       <LaunchDateUtc dateString={launch.launchDateUtc}></LaunchDateUtc>
       <FirstStageCores cores={launch.rocket.firstStage.cores}></FirstStageCores>

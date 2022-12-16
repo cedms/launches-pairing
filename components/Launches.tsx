@@ -1,6 +1,6 @@
 import camelcaseKeys from 'camelcase-keys';
 import { useEffect, useState } from 'react';
-import styles from '../../styles/Home.module.css';
+import styles from '../styles/Home.module.css';
 import Launch from './Launch';
 
 const LAUNCHES_API_URL = 'https://api.spacexdata.com/v3/launches';

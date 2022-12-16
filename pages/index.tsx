@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Launches from './components/Launches';
+import Launches from '../components/Launches';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {

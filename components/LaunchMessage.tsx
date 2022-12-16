@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import styles from '../../styles/LaunchMessage.module.css';
+import styles from '../styles/LaunchMessage.module.css';
 
 const SUCCESS_MESSAGE = 'Launch succeeded';
 
