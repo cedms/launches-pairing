@@ -1,4 +1,16 @@
 {
+  "root": true,
   "parser": "@typescript-eslint/parser",
-  "extends": [ "@avayler/eslint-config"]
+  "extends": [ "@avayler/eslint-config"],
+  "plugins": ["testing-library"],
+  "overrides": [
+    // Only uses Testing Library lint rules in test files
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "extends": ["plugin:testing-library/react"]
+    }
+  ]
 }

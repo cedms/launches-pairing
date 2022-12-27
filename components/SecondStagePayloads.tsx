@@ -1,12 +1,12 @@
 import styles from '../styles/Card.module.css';
 
-const LABEL = 'Second stage payloads:';
+const LABEL = 'Second stage payloads';
 
-const renderPayload = ({ payloadId, payloadType }) => <li key={payloadId}>{`${payloadId}-${payloadType}`}</li>;
+const renderPayload = ({ payload_id, payload_type }) => <li key={payload_id}>{`${payload_id}-${payload_type}`}</li>;
 
 interface Payload {
-  payloadId: number;
-  payloadType: string;
+  payload_id: number;
+  payload_type: string;
 }
 
 interface SecondStagePayloadsProps {

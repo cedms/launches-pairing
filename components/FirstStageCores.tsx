@@ -1,11 +1,11 @@
 import styles from '../styles/Card.module.css';
 
-const LABEL = 'First stage cores:';
+const LABEL = 'First stage cores';
 
-const renderCore = ({ coreSerial }) => <li key={coreSerial}>{coreSerial}</li>;
+const renderCore = ({ core_serial }) => <li key={core_serial}>{core_serial}</li>;
 
 interface Core {
-  coreSerial: number;
+  core_serial: number;
 }
 
 interface FirstStageCoresProps {

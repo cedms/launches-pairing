@@ -8,5 +8,6 @@
   "jest.jestCommandLine": "jest",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  }
+  },
+  "jest.autoRun": {}
 }

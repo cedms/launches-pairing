@@ -3,7 +3,7 @@ import styles from '../styles/Card.module.css';
 
 const DATE_FORMAT = 'DD/MM/YYYY';
 
-const LABEL = 'Launch date:';
+const LABEL = 'Launch date';
 
 interface LaunchDateProps {
   dateString: string;
